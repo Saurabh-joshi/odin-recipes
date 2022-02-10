@@ -1,8 +1,9 @@
 header{
-    width: 100%;
-    height: 40px;
+    width: 98%;
+    height: 60px;
     display: flex;
-    border: 2px solid; 
+    border-bottom: 2px solid; 
+    background-color: white;
 }
 
 img{
@@ -11,16 +12,55 @@ img{
     
 }
 
-#title-container{
-    background-color:red;
-}
 
 #title{
-    /* padding-top: 8%; */
-    margin: auto;
-    background-color: blue; 
-    
+    margin: 0;
+     font-size: 45px;
     height: 100%;
-
 }
 
+.recipe-row{
+    height: 350px;
+    display: flex;
+    margin-top: 5px;
+    width: 98%;
+}
+
+#cookies-container{
+
+    height: 90%;
+    width: 100%;
+    margin: auto;
+}
+
+.recipe-img-home{
+    height: 100%;
+    width: 320px;
+}
+
+.recipe-title-home{
+    text-align: center;
+    margin: auto;
+    
+}
+
+#main-cookies{
+    margin: 15px;
+}
+
+.recipe-title-recipe-page{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 60px;
+}
+
+ul, ol{
+    font-size: 20px;
+}
+li{
+    margin-bottom: 7px;
+}
+
+.recipe-img-recipe-page{
+    height: 250px;
+    width: 300px;
+}
